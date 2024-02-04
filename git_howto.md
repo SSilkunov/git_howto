@@ -94,3 +94,16 @@ git push -u origin main
 ```sh
 git pull
 ```
+Показ удаленного репозитория
+```sh
+git remote show
+```
+Показ более подробной информации об удаленном репозитории
+```sh
+git remote show origin
+```
+Удаление ветки из удаленного репозитория
+```sh
+git push origin --delete <имя ветки>
+```
+
